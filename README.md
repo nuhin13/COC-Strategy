@@ -18,4 +18,6 @@ Features
 
 ➼ Best Farming Base Layouts
 
-➼ Best War Base Layouts
+➼ Best War Base Layout
+
+Download Link : https://play.google.com/store/apps/details?id=com.nuhin13.COC_video_stratergy
