@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+
+                android:onClick="th6war1" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView1"
+
+                android:onClick="th6_war2"
+                />
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView2"
+
+                android:onClick="th6_war3"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView3"
+
+                android:onClick="th6_war4"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView4"
+
+                android:onClick="th6_war5"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView5"
+
+                android:onClick="th6_war6"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView6"
+
+                android:onClick="th6_war7"/>
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

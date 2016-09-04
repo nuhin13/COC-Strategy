@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inbox"
+            android:checked="false"
+            android:icon="@drawable/ic_inbox_black"
+            android:title="@string/video" />
+
+        <item
+            android:id="@+id/starred"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/war_base" />
+
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/farming_base" />
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_send_black"
+                android:title="Rate this app" />
+            <item
+                android:id="@+id/more"
+                android:icon="@drawable/ic_send_black"
+                android:title="More apps" />
+            <item
+                android:id="@+id/like"
+                android:icon="@drawable/ic_send_black"
+                android:title="Like Us in facebook"/>
+        </menu>
+    </item>
+
+</menu>
